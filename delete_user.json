@@ -1,0 +1,24 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "VisualEditor0",
+			"Effect": "Allow",
+			"Action": [
+				"iam:GetLoginProfile",
+				"iam:ListUsers",
+				"iam:ListSigningCertificates",
+				"iam:ListSSHPublicKeys",
+				"iam:ListServiceSpecificCredentials",
+				"iam:ListMFADevices",
+				"iam:ListUserPolicies",
+				"iam:ListAttachedUserPolicies",
+				"iam:ListGroupsForUser",
+				"iam:DeleteLoginProfile",
+				"iam:DeleteUser",
+				"iam:ListAccessKeys"
+			],
+			"Resource": "arn:aws:iam::1234567890:user/user2"
+		}
+	]
+}
